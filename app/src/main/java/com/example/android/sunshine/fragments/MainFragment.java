@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 
 import com.example.android.sunshine.R;
 
+import java.util.ArrayList;
+
 /**
  * A placeholder fragment containing a simple view for the MainActivity.
  */
@@ -19,6 +21,12 @@ public class MainFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_main, container, false);
+        View RootView = inflater.inflate(R.layout.fragment_main, container, false);
+
+        ArrayList<String> content = new ArrayList<String>();
+
+
+
+        return RootView;
     }
 }
